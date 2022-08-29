@@ -24,6 +24,6 @@ mv openwrt-rockchip-armv8-friendlyarm_nanopi-$NANOPI_MODEL_LOW-squashfs-sysupgra
 #ls -Ahl
 #zip OpenWrt-AO-NanoPi$NANOPI_MODEL-$VARIANT-$OPENWRT_BRANCH-$RELTAG-ext4.zip *$VARIANT*ext4*
 #zip OpenWrt-AO-NanoPi$NANOPI_MODEL-$VARIANT-$OPENWRT_BRANCH-$RELTAG-squashfs.zip *$VARIANT*squashfs*
-#cp ../build/openwrt/*.config ./
+cp ../build/openwrt/*.config ./
 ls -Ahl
 
